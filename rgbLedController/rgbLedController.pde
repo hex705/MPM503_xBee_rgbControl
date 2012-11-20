@@ -31,7 +31,7 @@ void setup() {
   println(Serial.list());  // List all the available serial ports
 
   // connect this sketch to the USB port of your Arduino at specified BAUD
-  serialPort = new Serial(this, Serial.list()[6], 19200);  // match baud and PORT 
+  serialPort = new Serial(this, Serial.list()[8], 19200);  // match baud and PORT 
 
   // define the slider for interface
   r =  new Slider(width - 360, 20, 100, 200, 0, 255, color(255, 0, 0), false);

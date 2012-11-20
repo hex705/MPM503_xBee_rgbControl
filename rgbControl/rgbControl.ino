@@ -9,10 +9,9 @@
 
   void setup() {
     
-    Serial.begin(19200);
+    incomingMessage.begin(19200);
     
-    incomingMessage.attachStream(Serial);   // NOTE HOW THIS STARTS!!!  -- we need to tell SCISSORS where to find messages! (ie STREAM)
-   
+  
       pinMode(redPin,OUTPUT);  
       pinMode(greenPin,OUTPUT);
       pinMode(bluePin,OUTPUT);
