@@ -6,7 +6,7 @@ Describes setup, configuration and use of xBee radios.  Needs you to download so
 
 
 xbee_terminal
-a simple interface for setting up and xBee radio -- simpler but trickier than the methods described in the PDF above.
+a simple interface for setting up and xBee radio -- simpler but trickier than the methods described in the PDF above.  Written by Tom Igoe -- see Making Things Talk.
 
 
 

@@ -7,6 +7,9 @@
   with return characters.  It's designed for use with 
   Linux, Unix, and OS X and XBee radios, because the 
   XBees don't send newline characters back.
+  
+  Written by Tom Igoe.
+  
 */
 import processing.serial.*;
 
